@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Eksportfigmafitcle"
+        tools:targetApi="31">
+        <activity
+            android:name=".userzz"
+            android:exported="false" />
+        <activity
+            android:name=".hommealone"
+            android:exported="false" />
+        <activity
+            android:name=".homealone"
+            android:exported="false" />
+        <activity
+            android:name=".utamaew"
+            android:exported="false" />
+        <activity
+            android:name=".oow"
+            android:exported="false" />
+        <activity
+            android:name=".woo"
+            android:exported="false" />
+        <activity
+            android:name=".oo"
+            android:exported="false" />
+        <activity
+            android:name=".aww"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivityew"
+            android:exported="false" />
+        <activity
+            android:name=".activity_ow"
+            android:exported="false" />
+        <activity
+            android:name=".now"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
