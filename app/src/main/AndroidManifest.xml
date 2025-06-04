@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -19,7 +20,7 @@
             android:name=".hommealone"
             android:exported="false" />
         <activity
-            android:name=".homealone"
+            android:name=".TmbhActivity"
             android:exported="false" />
         <activity
             android:name=".utamaew"
@@ -37,13 +38,13 @@
             android:name=".aww"
             android:exported="false" />
         <activity
-            android:name=".MainActivityew"
-            android:exported="false" />
-        <activity
-            android:name=".activity_ow"
+            android:name=".InputBukuActivity"
             android:exported="false" />
         <activity
             android:name=".now"
+            android:exported="false" />
+        <activity
+            android:name=".EditBookActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

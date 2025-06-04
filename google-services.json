@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "494949144252",
+    "project_id": "fitclepas",
+    "storage_bucket": "fitclepas.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:494949144252:android:29c423f8b21f1cb6c3e2b9",
+        "android_client_info": {
+          "package_name": "com.birros.eksportfigmafitcle"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9juoQRUh2aZGi9hYLrEkdOHTXaGOderc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
